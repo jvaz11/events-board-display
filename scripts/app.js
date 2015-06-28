@@ -99,7 +99,7 @@ app.controller('MainCtrl', function($scope, $timeout, QueueService, $route, $rou
     $scope.progress = 0;
     $scope.loaded = true;
     $scope.currentIndex = 0;
-    $scope.currentAnimation = 'slide-left-animation';
+    $scope.currentAnimation = 'fade-in-animation';
 
     $scope.setCurrentSlideIndex = setCurrentSlideIndex;
     $scope.isCurrentSlideIndex = isCurrentSlideIndex;
@@ -173,24 +173,19 @@ app.animation('.slide-animation', function($window) {
                     alpha: 0
                 }, {
                     left: 50,
-                    alpha: 1,
-                    ease: Ease.easeInOut
-                })
-                .fromTo(element.find('.title'), 2, {
+                    alpha: 1                })
+                .fromTo(element.find('.title'), 1, {
+                    left: 50,
+                    alpha: 0
+                }, {
+                    left: 50,
+                    alpha: 1                })
+                .fromTo(element.find('.dateTime'), 1, {
                     left: 50,
                     alpha: 0
                 }, {
                     left: 50,
                     alpha: 1,
-                    ease: Ease.easeInOut
-                })
-                .fromTo(element.find('.dateTime'), 2, {
-                    left: startPoint,
-                    alpha: 0
-                }, {
-                    left: 50,
-                    alpha: 1,
-                    ease: Ease.easeInOut,
                     onComplete: done
                 });
 
