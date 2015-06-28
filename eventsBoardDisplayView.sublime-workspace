@@ -1,0 +1,331 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"text-t",
+				"text-transform"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"snipp",
+				"Snippet: HTML - HTML foundation"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"searcg ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Juan/Documents/Programming Projects/events-board-display"
+	],
+	"file_history":
+	[
+		"/Users/Juan/Documents/Programming Projects/eventsBoardSdk/events-board-display-app/index.html",
+		"/Users/Juan/Documents/Programming Projects/eventsBoardSdk/index.html",
+		"/Users/Juan/Dropbox/Programming/eventsBoardSdk/index.html",
+		"/Users/Juan/Dropbox/Programming/flickering-heat-9129/app/index.html",
+		"/Users/Juan/Dropbox/Programming/eventsBoardSdk/epSDK.html",
+		"/Users/Juan/Desktop/emailTemplates/lifecycleEmails/orderShipped.html",
+		"/Users/Juan/Desktop/emailTemplates/Slate (Responsive Email Templates) by Litmus/Receipt/receipt.html",
+		"/Users/Juan/Desktop/emailTemplates/orderShipped_inlined.html",
+		"/Users/Juan/Desktop/emailTemplates/sendWithUs_API/emailsample1.json",
+		"/Users/Juan/Desktop/emailTemplates/sendWithUs_API/curl.sh",
+		"/Users/Juan/Downloads/bookmarklet1.html",
+		"/Users/Juan/Downloads/purchase1.json",
+		"/Users/Juan/Desktop/emailTemplates/intercomAPI/curltest1.sh",
+		"/Users/Juan/Dropbox/Programming/upcomingEventsDisplay/app/assets/css/sass/variables.scss",
+		"/Users/Juan/Dropbox/Programming/upcomingEventsDisplay/app/assets/css/materialism.css",
+		"/Users/Juan/Dropbox/Programming/upcomingEventsDisplay/app/assets/tpl/apps/crud.html",
+		"/Users/Juan/Dropbox/Programming/upcomingEventsAppOld/css/styles.css",
+		"/Users/Juan/Dropbox/Programming/upcomingEventsDisplay/app/assets/tpl/display.html",
+		"/Users/Juan/Dropbox/Programming/upcomingEventsDisplay/app/pages/display.html",
+		"/Users/Juan/Dropbox/Programming/upcomingEventsDisplay/app/assets/js/controllers/dashboard.js",
+		"/Users/Juan/Dropbox/Programming/upcomingEventsDisplay/app/assets/js/services/todo-service.js",
+		"/Users/Juan/Dropbox/Programming/upcomingEventsDisplay/app/assets/js/controllers/maps/clickable-map.js",
+		"/Users/Juan/Dropbox/Programming/upcomingEventsDisplay/app/assets/js/controllers/apps/crud.js",
+		"/Users/Juan/Dropbox/Programming/upcomingEventsDisplay/app/assets/js/services/color-service.js",
+		"/Users/Juan/Dropbox/Programming/upcomingEventsDisplay/app/assets/js/controllers/event.js",
+		"/Users/Juan/Dropbox/Programming/upcomingEventsApp/css/md-date-time.css",
+		"/Users/Juan/Dropbox/Programming/upcomingEventsApp/scripts/controllers.js/event.js",
+		"/Users/Juan/Dropbox/Programming/upcomingEventsApp/index.html",
+		"/Users/Juan/Dropbox/Programming/upcomingEventsApp/test.json",
+		"/Users/Juan/Dropbox/Programming/upcomingEventsApp/admin.html",
+		"/Users/Juan/Dropbox/Programming/upcomingEventsApp/js/app.js",
+		"/Users/Juan/Dropbox/Learning Projects/taskNinjaSummer/TaskNinja-T1/views/post.html",
+		"/Users/Juan/Dropbox/Learning Projects/taskNinjaSummer/README.md",
+		"/Users/Juan/Dropbox/Programming/upcomingEventsApp/css/styles.css",
+		"/Users/Juan/Desktop/eventSign/index.html",
+		"/Users/Juan/Desktop/neonapp/index.html",
+		"/Users/Juan/Desktop/eventSign/style.css",
+		"/Users/Juan/Downloads/angular-file-input-master/demo/index.html",
+		"/Users/Juan/Downloads/angular-file-input-master/demo/button.html",
+		"/Users/Juan/Library/Application Support/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/Users/Juan/Library/Application Support/Sublime Text 3/Packages/User/LiveReload.sublime-settings",
+		"/Users/Juan/Desktop/neonapp/css/style.css",
+		"/Users/Juan/Dropbox/Active Projects/TaskNinja/TaskNinja-T2/views/post.html"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/Juan/Dropbox/Programming/upcomingEventsDisplay/app/assets",
+			"/Users/Juan/Dropbox/Programming/upcomingEventsAppOld",
+			"/Users/Juan/Dropbox/Programming/upcomingEventsApp"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"\" : {",
+			"full_",
+			"config",
+			"show m",
+			"Object",
+			"sdk",
+			"bower_components",
+			"error",
+			"[1]",
+			"1",
+			"0",
+			"[0]",
+			"You'll",
+			"logo",
+			"Lorem",
+			"eventform",
+			"editin",
+			"table",
+			"13px",
+			"propa",
+			"editin",
+			"margin-b",
+			"event",
+			"events",
+			"Events",
+			"events",
+			"display.html",
+			"progressbar",
+			"title",
+			"slides = [{\n            \"id\": \"image00\",\n            \"src\": \"./images/image00.jpg\",\n            \"title\": \"Volleyball Tournament\",\n            \"dateTime\": \"2015-01-06\"\n        }, {\n            \"id\": \"image01\",\n            \"src\": \"./images/image01.jpg\",\n            \"title\": \"All Hands Meeting\",\n            \"dateTime\": \"2015-01-05\"\n        }, {\n            \"id\": \"image02\",\n            \"src\": \"./images/image02.jpg\",\n            \"title\": \"Board Game Night\",\n            \"dateTime\": \"2015-01-03\"\n        }, {\n            \"id\": \"image03\",\n            \"src\": \"./images/image03.jpg\",\n            \"title\": \"Ops Q&A\",\n            \"dateTime\": \"2015-01-04\"\n        }, {\n            \"id\": \"image04\",\n            \"src\": \"./images/image04.jpg\",\n            \"title\": \"Pizza Party\",\n            \"dateTime\": \"2015-01-02\"\n        }, {\n            \"id\": \"image05\",\n            \"src\": \"./images/image04.jpg\",\n            \"title\": \"Pizza Partyyyyyyyyyyyy\",\n            \"dateTime\": \"2015-01-01\"\n        }];",
+			"f",
+			"progressbar.html",
+			"progressbar",
+			"bar",
+			"prog",
+			"list",
+			"/images",
+			"angular.mi",
+			"create",
+			"$",
+			"ui-b",
+			"route",
+			"post.",
+			"buttons",
+			"year",
+			".title",
+			"class=\"title\"",
+			"title",
+			"libs",
+			"Task",
+			"task",
+			"Nirebase",
+			"Task",
+			"task",
+			"Task",
+			"task",
+			"Task",
+			"task",
+			"Task",
+			"task",
+			"Task",
+			"view",
+			"post",
+			"Friday June 1st",
+			"subtitle",
+			"04",
+			" \"subtitle\":",
+			", \"sub",
+			"title\":",
+			"},",
+			"subtitle",
+			"src",
+			"id",
+			"inter",
+			"time"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 24.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "eventsBoardDisplayView.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 249.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

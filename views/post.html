@@ -1,0 +1,20 @@
+<div class="container">
+
+	<div class="row eventtitle">
+		<div class="col-md-6 col-md-offset-3">
+
+			<form ng-submit="postEvent(event)">              
+		      <input type="text" ng-model="event.title" class="form-control" placeholder="Event title" required><br>             
+		      <textarea ng-model="event.description" class="form-control" placeholder="Describe what you need done" required></textarea><br>
+		      <input type="number" ng-model="event.total" class="form-control" placeholder="How much will you pay?" required><br>
+ <md-input-container flex>
+              <label>Start date</label>
+              <input type="date" ng-model="info.departuredate">
+            </md-input-container>
+
+		      <input type="submit" value="Post" class="btn btn-warning">
+		    </form>
+
+		</div>
+	</div>	
+</div>

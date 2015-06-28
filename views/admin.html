@@ -1,0 +1,37 @@
+<div class="container">
+	<div class="row">
+
+		<div class="col-md-offset-2 col-md-8">
+			<div class="list-group">
+					<!-- SEARCH TOOL -->
+					<div class="form-group">
+						<div class="input-group">
+							<div class="input-group-addon">
+								<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+							</div>
+				      		<input type="text" ng-model="searchEvent" class="form-control" placeholder="Search">
+				    	</div>	
+					</div>
+					<div class="buttonTitle">
+						<a href="#/post" class="btn btn-warning">Post an Event</a>
+					</div>					
+					
+					<!-- TASK LIST -->	
+					<a ng-repeat="event in events | filter: searchEvent | orderBy:'dateTime':false" ng-href="#/edit/{{event.$id}}">
+						<div class="list-group-item">					        
+					        <div class="row-content">
+					            <h4 class="list-group-item-heading">{{event.title | limitTo:25}}{{ event.title.length > 25? "..." : ""}}</h4>
+					            <span class="list-group-item-text">
+					            	{{event.dateTime}}
+					            </span>		            
+					        </div>
+					       
+					    </div>		    
+				    	<div class="list-group-separator"></div>
+			    	</a>
+			</div>
+
+		</div>
+	
+	</div>	
+</div>
