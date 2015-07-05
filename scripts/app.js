@@ -1,45 +1,12 @@
 var app = angular.module('website', ['ngAnimate', 'ui.bootstrap', 'ngRoute', 'ngResource', 'firebase', 'toaster', 'ui.bootstrap']);
 
-app.constant('FURL', 'https://eventsboard.firebaseio.com/');
-
 
 app.controller('MainCtrl', function($scope, $timeout, QueueService, $route, $routeParams, $location, $firebase, $log) {
     $scope.$route = $route;
     $scope.$location = $location;
     $scope.$routeParams = $routeParams;
     var INTERVAL = 10000;
-    // slides = [{
-    //     "id": "image00",
-    //     "src": "./images/image00.jpg",
-    //     "title": "Volleyball Tournament",
-    //     "dateTime": "2015-01-06"
-    // }, {
-    //     "id": "image01",
-    //     "src": "./images/image01.jpg",
-    //     "title": "All Hands Meeting",
-    //     "dateTime": "2015-01-05"
-    // }, {
-    //     "id": "image02",
-    //     "src": "./images/image02.jpg",
-    //     "title": "Board Game Night",
-    //     "dateTime": "2015-01-03"
-    // }, {
-    //     "id": "image03",
-    //     "src": "./images/image03.jpg",
-    //     "title": "Ops Q&A",
-    //     "dateTime": "2015-01-04"
-    // }, {
-    //     "id": "image04",
-    //     "src": "./images/image04.jpg",
-    //     "title": "Pizza Party",
-    //     "dateTime": "2015-01-02"
-    // }, {
-    //     "id": "image05",
-    //     "src": "./images/image04.jpg",
-    //     "title": "Pizza Partyyyyyyyyyyyy",
-    //     "dateTime": "2015-01-01"
-    // }];
-     // Hardcoding :boardid until routing is configured
+    
     var boardid = $routeParams.boardid;
 
     // var boardid = "-JsrWmm21vh4grLC-wRP";

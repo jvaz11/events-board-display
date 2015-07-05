@@ -15,6 +15,64 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "display.html",
+			"settings":
+			{
+				"buffer_size": 548,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 30 files for \"xlarge\" (case sensitive)\n\n/Users/Juan/Documents/Programming Projects/events-board-display/css/styles.css:\n   65  }\n   66  \n   67: .xlarge {\n   68      position: absolute;\n   69      bottom: 50px;\n\n/Users/Juan/Documents/Programming Projects/events-board-display/scripts/app.js:\n  169                      alpha: 1\n  170                  })\n  171:                 .fromTo(element.find('.xlarge'), 1, {\n  172                      left: startPoint,\n  173                      alpha: 0\n\n2 matches across 2 files\n",
+			"settings":
+			{
+				"buffer_size": 531,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "scripts/app.js",
+			"settings":
+			{
+				"buffer_size": 6812,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Juan/Documents/Programming Projects/eventsBoardSdk/events-admin-for-display/index.html",
+			"settings":
+			{
+				"buffer_size": 11509,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "curlPOSTslide",
+			"settings":
+			{
+				"buffer_size": 319,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2709,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/styles.css",
+			"settings":
+			{
+				"buffer_size": 1583,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -78,10 +136,20 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Juan/Documents/Programming Projects/events-board-display"
+		"/Users/Juan/Documents/Programming Projects/events-board-display",
+		"/Users/Juan/Documents/Programming Projects/events-board-display/css",
+		"/Users/Juan/Documents/Programming Projects/events-board-display/scripts",
+		"/Users/Juan/Documents/Programming Projects/events-board-display/scripts/controllers",
+		"/Users/Juan/Documents/Programming Projects/events-board-display/views",
+		"/Users/Juan/Documents/Programming Projects/eventsBoardSdk/events-admin-for-display",
+		"/Users/Juan/Documents/Programming Projects/eventsBoardSdk/events-admin-for-display/epSDK_files"
 	],
 	"file_history":
 	[
+		"/Users/Juan/Documents/Programming Projects/events-board-display/css/greensock-timeline-project.sublime-project",
+		"/Users/Juan/Documents/Programming Projects/events-board-display/scripts/app.start.js",
+		"/Users/Juan/Documents/Programming Projects/events-board-display/firebase.json",
+		"/Users/Juan/Documents/Programming Projects/events-board-display/scripts/controllers/event.js",
 		"/Users/Juan/Documents/Programming Projects/eventsBoardSdk/events-board-display-app/index.html",
 		"/Users/Juan/Documents/Programming Projects/eventsBoardSdk/index.html",
 		"/Users/Juan/Dropbox/Programming/eventsBoardSdk/index.html",
@@ -128,13 +196,14 @@
 	],
 	"find":
 	{
-		"height": 22.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
 		"height": 93.0,
 		"where_history":
 		[
+			"/Users/Juan/Documents/Programming Projects/events-board-display",
 			"/Users/Juan/Dropbox/Programming/upcomingEventsDisplay/app/assets",
 			"/Users/Juan/Dropbox/Programming/upcomingEventsAppOld",
 			"/Users/Juan/Dropbox/Programming/upcomingEventsApp"
@@ -145,6 +214,10 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"xlarge",
+			"animation",
+			"rout",
+			"upcomingevents",
 			"\" : {",
 			"full_",
 			"config",
@@ -237,8 +310,235 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "display.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								411,
+								411
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 531,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										155,
+										161
+									],
+									[
+										409,
+										415
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								277,
+								277
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "scripts/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6812,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4667,
+								4667
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1169.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/Juan/Documents/Programming Projects/eventsBoardSdk/events-admin-for-display/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11509,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10987,
+								10987
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2856.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "curlPOSTslide",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								154,
+								154
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2709,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1692,
+								1692
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "css/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1583,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1182,
+								1184
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 695.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -275,7 +575,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 24.0
+		"height": 69.0
 	},
 	"output.find_results":
 	{

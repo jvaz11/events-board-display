@@ -105,3 +105,36 @@ body {
 .centerTitle {
   text-align: center;
 }
+
+/*no slides*/
+
+
+.outer {
+    padding-left: 10%;
+    padding-right: 10%;
+        background-color: #1976D2;
+
+}
+
+.flex-contain {
+    display: flex;
+    flex-direction: column;
+  
+    margin: auto;
+    height: 100vh;
+}
+
+span {
+    margin: auto;
+    font-size: 64px;
+    line-height: 1em;
+    color: #fff;
+    text-shadow: rgba(0, 0, 0, 0.0980392) 0px 4.27500009536743px 0px;
+}
+
+#clear {
+    margin: auto;
+    font-size: 16px; 
+    color: #FFF; 
+    font-weight: 200;
+}
