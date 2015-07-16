@@ -1,12 +1,12 @@
-<div class="outer" ng-hide="slides.length">
-<div class ="flex-contain" >
-  <span>It doesn't look like you have any events coming up! You should add some :].</span>
+<div class="outer" ng-if="!slides.length" slide-animation>
+<div class ="flex-contain">
+  <span>It doesn't look like you have any events coming up! Perhaps you should add some?</span>
 </div>  </div>
 
 
     <div class="slide slide-animation" ng-if="isCurrentSlideIndex($index)" ng-show="loaded" ng-repeat="slide in slides | orderBy:'datetime':false">
         <div class="floorfade">
-            <img class="bg" bg-image ng-src="{{slide.src}}">
+            <img class="bg" bg-image ng-src="data:{{slide.format}};base64,{{slide.src}}"/>">
             <div class="title">{{slide.name}}</div>
             <div class="dateTime">{{ slide.datetime | date:"fullDate"}}  |  {{ slide.datetime | date:"hh:mm a"}}</div>
         </div>

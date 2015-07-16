@@ -1,7 +1,4 @@
 curl -X POST -d '{
-      "date" : "Wed Jun 24 2015 00:00:00 GMT-0700 (PDT)",
-      "dateTime" : "2015-06-24",
-      "fullDate" : "Wednesday, June 24, 2014",
-      "name" : "Programming",
+      “slides” : "",
       "src" : "http://i.imgur.com/zcdzHup.jpg?1"
-    }' 'https://eventsboard.firebaseio.com/boards/-JsrWmm21vh4grLC-wRP/slides.json'
+    }' 'https://eventsboard.firebaseio.com/boards/-JsrWmm21vh4grLC-wRP.json'
