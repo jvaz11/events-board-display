@@ -25,27 +25,22 @@ app.controller('MainCtrl', function($scope, $timeout, QueueService, $route, $rou
 
         var ref = new Firebase("https://eventsboard.firebaseio.com");
         var slides = $firebase(ref.child('profiles').child(idd).child('slides')).$asArray();
-        $scope.slides = slides;
+        $scope.displayLoadingIndicator = true;
+
+        slides.$loaded()
+            .then(function(x) {
+            $scope.displayLoadingIndicator = false;
+               $scope.slides = slides;
+
+
+                x === slides; // true
+            })
+            .catch(function(error) {
+                console.log("Error:", error);
+            });
 
 
     });
-
-
-
-    // get slides if slides array isn't null
-    // $scope.getSlides = function(){
-    //     if (slides !== null) {
-    //         $scope.slides = slides;
-    //     }
-    // };
-
-    // $scope.getSlides();
-
-
-
-
-
-
 
 
 
