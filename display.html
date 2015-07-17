@@ -1,15 +1,14 @@
-<div class="outer" ng-show="displayLoadingIndicator" slide-animation>
+
+
+<div class="outer" slide-animation>
 <div class ="flex-contain">
-  <span>loading</span>
-</div>  </div>
-
-<div class="outer" ng-if="!slides.length" slide-animation>
-<div class ="flex-contain">
-  <span>It doesn't look like you have any events coming up! Perhaps you should add some?</span>
-</div>  </div>
+  <span ng-show="displayLoadingIndicator">loading</span>
+  <span ng-show="!slides.length && !displayLoadingIndicator">It doesn't look like you have any events coming up! Perhaps you should add some?</span>
+</div>  
+</div>
 
 
-    <div class="slide slide-animation" ng-if="isCurrentSlideIndex($index)" ng-show="loaded" ng-repeat="slide in slides | orderBy:'datetime':false">
+    <div class="slide slide-animation" ng-if="isCurrentSlideIndex($index)" ng-repeat="slide in slides | orderBy:'datetime':false">
         <div class="floorfade">
             <img class="bg" bg-image ng-src="data:{{slide.format}};base64,{{slide.src}}"/>">
             <div class="title">{{slide.name}}</div>

@@ -19,7 +19,7 @@
 			"file": "display.html",
 			"settings":
 			{
-				"buffer_size": 548,
+				"buffer_size": 806,
 				"line_ending": "Unix"
 			}
 		},
@@ -37,7 +37,7 @@
 			"file": "scripts/app.js",
 			"settings":
 			{
-				"buffer_size": 6812,
+				"buffer_size": 8098,
 				"line_ending": "Unix"
 			}
 		},
@@ -45,15 +45,15 @@
 			"file": "/Users/Juan/Documents/Programming Projects/eventsBoardSdk/events-admin-for-display/index.html",
 			"settings":
 			{
-				"buffer_size": 11509,
-				"line_ending": "Unix"
+				"buffer_size": 4083,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "curlPOSTslide",
 			"settings":
 			{
-				"buffer_size": 319,
+				"buffer_size": 165,
 				"line_ending": "Unix"
 			}
 		},
@@ -61,7 +61,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2709,
+				"buffer_size": 2615,
 				"line_ending": "Unix"
 			}
 		},
@@ -69,7 +69,7 @@
 			"file": "css/styles.css",
 			"settings":
 			{
-				"buffer_size": 1583,
+				"buffer_size": 2055,
 				"line_ending": "Unix"
 			}
 		}
@@ -141,8 +141,7 @@
 		"/Users/Juan/Documents/Programming Projects/events-board-display/scripts",
 		"/Users/Juan/Documents/Programming Projects/events-board-display/scripts/controllers",
 		"/Users/Juan/Documents/Programming Projects/events-board-display/views",
-		"/Users/Juan/Documents/Programming Projects/eventsBoardSdk/events-admin-for-display",
-		"/Users/Juan/Documents/Programming Projects/eventsBoardSdk/events-admin-for-display/epSDK_files"
+		"/Users/Juan/Documents/Programming Projects/eventsBoardSdk/events-admin-for-display"
 	],
 	"file_history":
 	[
@@ -319,15 +318,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 548,
+						"buffer_size": 806,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								411,
-								411
+								0,
+								0
 							]
 						],
 						"settings":
@@ -397,15 +396,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6812,
+						"buffer_size": 8098,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4667,
-								4667
+								4204,
+								4204
 							]
 						],
 						"settings":
@@ -427,15 +426,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11509,
+						"buffer_size": 4083,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10987,
-								10987
+								0,
+								0
 							]
 						],
 						"settings":
@@ -457,15 +456,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 319,
+						"buffer_size": 165,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								154,
-								154
+								0,
+								0
 							]
 						],
 						"settings":
@@ -485,15 +484,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2709,
+						"buffer_size": 2615,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1692,
-								1692
+								0,
+								0
 							]
 						],
 						"settings":
@@ -515,15 +514,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1583,
+						"buffer_size": 2055,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1182,
-								1184
+								0,
+								0
 							]
 						],
 						"settings":
@@ -599,12 +598,16 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"~/Documents/Programming Projects/eventsBoardSdk/events-admin-for-display/mainWorkspaceEvents.sublime-workspace"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
