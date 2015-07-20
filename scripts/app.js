@@ -5,7 +5,7 @@ app.controller('MainCtrl', function($scope, $timeout, QueueService, $route, $rou
     $scope.$route = $route;
     $scope.$location = $location;
     // $scope.$routeParams = $routeParams;
-    var INTERVAL = 10000;
+    var INTERVAL = 20000;
     // var boardid = $routeParams.boardid;
     // var ref = new Firebase("https://eventsboard.firebaseio.com/profiles/simplelogin%3A34/slides");
     // var slides = $firebase(ref).$asArray();
@@ -29,10 +29,8 @@ app.controller('MainCtrl', function($scope, $timeout, QueueService, $route, $rou
 
         slides.$loaded()
             .then(function(x) {
-            $scope.displayLoadingIndicator = false;
-               $scope.slides = slides;
-
-
+                $scope.displayLoadingIndicator = false;
+                $scope.slides = slides;
                 x === slides; // true
             })
             .catch(function(error) {
@@ -153,7 +151,7 @@ app.animation('.slide-animation', function($window) {
             var startPoint = $window.innerWidth * 0.05,
                 tl = new TimelineLite();
 
-            tl.fromTo(element.find('.bg'), 1, {
+            tl.fromTo(element.find('.bg'), 2, {
                     alpha: 0
                 }, {
                     alpha: 1
@@ -186,10 +184,10 @@ app.animation('.slide-animation', function($window) {
         leave: function(element, done) {
             var tl = new TimelineLite();
 
-            tl.to(element, 1, {
-                alpha: 0,
-                onComplete: done
-            });
+            tl.to(element, 2, {
+                    alpha: 0,
+                    onComplete: done
+                });
         }
     };
 });

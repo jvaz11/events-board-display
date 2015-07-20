@@ -1,9 +1,9 @@
 
 
-<div class="outer" slide-animation>
+<div class="outer" slide-animation ng-show="displayLoadingIndicator || slides.length == 0">
 <div class ="flex-contain">
   <span ng-show="displayLoadingIndicator">loading</span>
-  <span ng-show="!slides.length && !displayLoadingIndicator">It doesn't look like you have any events coming up! Perhaps you should add some?</span>
+  <span ng-show="slides.length == 0 && !displayLoadingIndicator">It doesn't look like you have any events coming up! Perhaps you should add some?</span>
 </div>  
 </div>
 

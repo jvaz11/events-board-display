@@ -62,6 +62,7 @@ body {
     display: block;
     top: 0px;
     z-index: -1;
+    /*-webkit-transform: translateZ(0);*/
     
 }
 
@@ -139,3 +140,7 @@ span {
     color: #FFF; 
     font-weight: 200;
 }
+/*
+.slide-animation {
+    -webkit-transform: translateZ(0);;
+}*/
