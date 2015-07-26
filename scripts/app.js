@@ -95,6 +95,11 @@ app.controller('MainCtrl', function($scope, $timeout, QueueService, $route, $rou
     $scope.isCurrentAnimation = isCurrentAnimation;
 
     loadSlides();
+
+    
+
+
+
 });
 
 app.config(function($routeProvider) {
@@ -151,7 +156,7 @@ app.animation('.slide-animation', function($window) {
             var startPoint = $window.innerWidth * 0.05,
                 tl = new TimelineLite();
 
-            tl.fromTo(element.find('.bg'), 2, {
+            tl.fromTo(element.find('.bg'), .5, {
                     alpha: 0
                 }, {
                     alpha: 1
@@ -177,21 +182,30 @@ app.animation('.slide-animation', function($window) {
                     left: 50,
                     alpha: 1,
                     onComplete: done
-                });
+                })
+                .fromTo(element.find('.time'), 1, {
+                    left: 50,
+                    alpha: 0
+                }, {
+                    left: 50,
+                    alpha: 1,
+                    onComplete: done
+                })
+
+                ;
 
         },
 
         leave: function(element, done) {
             var tl = new TimelineLite();
 
-            tl.to(element, 2, {
-                    alpha: 0,
-                    onComplete: done
-                });
+            tl.to(element, .5, {
+                alpha: 0,
+                onComplete: done
+            });
         }
     };
 });
-
 
 
 app.directive('bgImage', function($window) {
@@ -221,6 +235,8 @@ app.directive('bgImage', function($window) {
                 });
             }
         };
+
+
 
         var windowElement = angular.element($window);
         windowElement.resize(resizeBG);
