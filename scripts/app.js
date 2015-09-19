@@ -18,7 +18,7 @@ app.controller('MainCtrl', function($scope, $timeout, QueueService, $route, $rou
     $scope.$on('$routeChangeSuccess', function(ev, current, prev) {
         var paramId = $routeParams.boardid;
         console.log("paramId is " + paramId);
-        var idd = atob(paramId);
+        var idd = paramId;
 
         // idd = encodeURI(idd);
 
